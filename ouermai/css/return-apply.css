@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* 退货 - 申请记录详情 */
+/* 申请记录详情（等待退货） */
+.return-apply {
+    border-top: 1px solid #e0e0e0;
+}
+.apply-order {
+    padding: 1.04rem 3.13% 0.58rem 3.13%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.order-num {
+    height: 1.08rem;
+    margin-bottom: 0.71rem;
+    color: #545454;
+    line-height: 1.08rem;
+}
+.apply-cancel {
+    float: right;
+    height: 1.08rem;
+    padding-left: 5.17%;
+    color: #f25000;
+    background: url("../images/apply-remove.png") 0 center no-repeat;
+    background-size: 22.03%;
+    font-size: 0.83rem;
+}
+.apply-order p {
+    color: #6a6a6a;
+    line-height: 1.33rem;
+    font-size: 0.83rem;
+}
+.apply-state {
+    color: #cd0000;
+}
+.apply-peo {
+    padding: 1.21rem 3.13% 0.83rem 3.13%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.apply-name {
+    height: 1.08rem;
+    margin-bottom: 0.92rem;
+    line-height: 1.08rem;
+}
+.apply-name span {
+    margin-right: 14.33%;
+}
+.apply-tel {
+    height: 1.08rem;
+    padding-left: 5.67%;
+    background: url("../images/apply-tel.png") 0 center no-repeat;
+    background-size: 13.68%;
+}
+.apply-peo p {
+    height: 0.83rem;
+    color: #6a6a6a;
+    font-size: 0.83rem;
+}
+.apply-express {
+    padding: 1.25rem 3.13% 0 3.13%;
+}
+.apply-express h3 {
+    margin-bottom: 0.79rem;
+}
+.express-message {
+    height: 8rem;
+    padding-top: 0.83rem;
+    background-color: #f0f0f0;
+}
+.express-text {
+    height: 1.83rem;
+    margin-bottom: 0.83rem;
+    padding: 0 3.13%;
+    line-height: 1.83rem;
+    font-size: 0.92rem;
+}
+.express-text label {
+    float: left;
+    margin-right: 1.67%;
+}
+.express-text div {
+    float: left;
+    width: 78%;
+    height: 1.75rem;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+}
+.express-text input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+}
+.apply-control {
+    width: 93.75%;
+    height: 2.08rem;
+    margin: 1.25rem auto 2.83rem;
+    border-radius: 2px;
+    background-color: #f25000;
+}
+.apply-control button {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    color: #fff;
+    background: none;
+    font-size: 1.08rem;
+}
+.apply-list {
+    padding: 0 3.13%;
+    border-bottom: 1px solid #e0e0e0;
+}
+.apply-list h3 {
+    height: 2.58rem;
+    background: url("../images/apply-list-2.png") center bottom no-repeat;
+    text-align: center;
+    line-height: 2.58rem;
+}
+.applylist-massage {
+    overflow: hidden;
+    height: 0;
+}
+.apply-list ul {
+    height: 5.17rem;
+    padding: 0.83rem 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.apply-list ul dt {
+    float: left;
+    width: 20.67%;
+    height: 5.17rem;
+    margin-right: 4%;
+}
+.apply-list dt img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.apply-list ul dd {
+    float: left;
+    width: 75.33%;
+}
+.apply-list dd h4 {
+    overflow: hidden;
+    width: 75.33%;
+    height: 2.33rem;
+    line-height: 2.33rem;
+}
+.apply-list dd p {
+    height: 2.83rem;
+    font-size: 0.92rem;
+}
+.apply-color {
+    float: left;
+    width: 26.64%;
+    color: #909090;
+    line-height: 2.83rem;
+}
+.apply-color em {
+    margin-left: 4.42%;
+}
+.apply-amount {
+    float: right;
+}
+.apply-reason {
+    height: 4.75rem;
+    padding: 0.92rem 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+.apply-reason p {
+    height: 1.58rem;
+    line-height: 1.58rem;
+    font-size: 0.83rem;
+}
+.apply-reason p span {
+    color: #808080;
+}
+
+/* 申请记录详情（等待审核） */
+.express-new {
+    border-bottom: 1px solid #e4e4e4;
+}
+.apply-wares {
+    padding-bottom: 1.75rem;
+}
+.apply-wares p {
+    margin-bottom: 0.75rem;
+    line-height: 0.83rem;
+    font-size: 0.83rem;
+}
+.apply-wares p span {
+    color: #808080;
+}
+
+/* 提交退货申请成功 */
+.success-pic {
+    height: 14.17rem;
+    padding-top: 2.71rem;
+    border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+.success-pic div {
+    width: 25%;
+    height: 6.67rem;
+    margin: 0 auto 2.21rem;
+    background: url("../images/submit-yes.png") 0 0 no-repeat;
+    background-size: contain;
+}
+.success-pic p {
+    height: 1.25rem;
+    color: #f25000;
+    text-align: center;
+    line-height: 1.25rem;
+    font-size: 1.25rem;
+}
+.submit-link a {
+    display: block;
+    height: 2.92rem;
+    padding: 0 7.5% 0 11.56%;
+    border-bottom: 1px solid #d5d5d5;
+    color: #585858;
+    line-height: 2.92rem;
+}
+.submit-link a div {
+    float: right;
+    width: 3.14%;
+    height: 2.92rem;
+    background: url("../images/login-arrow.png") center center no-repeat;
+    background-size: contain;
+}

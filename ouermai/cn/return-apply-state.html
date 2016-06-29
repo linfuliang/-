@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>偶尔买-退货申请记录详情(等待退货)</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/return-apply.css">
+    <script src="../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../js/word.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <a href="javaScript:history.go(-1);" class="back" title="返回"></a>
+            <h1 class="title">申请记录详情</h1>
+        </div>
+        <div class="con">
+            <div class="return-apply">
+                <div class="apply-order">
+                    <div class="order-num">
+                        <strong>订单号：</strong>
+                        <span>2013955465454</span>
+                        <em href="" class="apply-cancel">取消申请</em>
+                    </div>
+                    <p>申请时间：
+                        <span>2013-12-7  14:12:14</span>
+                    </p>
+                    <p>状态：
+                        <span id="apply-state" class="apply-state">等待审核</span>
+                    </p>
+                </div>
+                <div class="apply-peo">
+                    <div class="apply-name">
+                        <strong>收件人：</strong>
+                        <span>张三丰</span>
+                        <em class="apply-tel">13875863256</em>
+                    </div>
+                    <p>商品寄回地址：
+                        <span>福建省 厦门市 软件园二期观日路40号201</span>
+                    </p>
+                </div>
+                <div class="apply-express express-new">
+                    <h3>请填写寄回商品信息：</h3>
+                    <div class="apply-wares">
+                        <p>
+                            <span>快递名称：</span>
+                            <em>顺丰速运</em>
+                        </p>
+                        <p>
+                            <span>快递单号：</span>
+                            <em>SF15649865296666658</em>
+                        </p>
+                        <p>
+                            <span>快递费用：</span>
+                            <em>20.00</em>
+                        </p>
+                    </div>
+                </div>
+                <div class="apply-list">
+                    <h3>申请退货商品列表（共<span>2</span>件）</h3>
+                    <div class="applylist-massage">
+                        <ul>
+                            <dt>
+                                <img src="../images/applylist-1.png" alt="退货商品" title="退货商品" />
+                            </dt>
+                            <dd>
+                                <h4>5.5寸大屏智能红米手机</h4>
+                                <p class="apply-color">
+                                    <span>红色</span>
+                                    <em>X1</em>
+                                </p>
+                                <p class="apply-amount">
+                                    <span>退货数量：</span>
+                                    <em>1</em>
+                                </p>
+                            </dd>
+                        </ul>
+                        <ul>
+                            <dt>
+                                <img src="../images/applylist-2.png" alt="退货商品" title="退货商品" />
+                            </dt>
+                            <dd>
+                                <h4>5.5寸大屏智能红米手机</h4>
+                                <p class="apply-color">
+                                    <span>红色</span>
+                                    <em>X1</em>
+                                </p>
+                                <p class="apply-amount">
+                                    <span>退货数量：</span>
+                                    <em>1</em>
+                                </p>
+                            </dd>
+                        </ul>
+                        <div class="apply-reason">
+                            <p>
+                                <span>退货原因：</span>
+                                <em>不想要了</em>
+                            </p>
+                            <p>
+                                <span>退货人姓名：</span>
+                                <em>张三丰</em>
+                            </p>
+                            <p>
+                                <span>退货人电话：</span>
+                                <em>13825648919</em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/touch.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/return-apply.js"></script>
+    <script>
+        $(function() {
+            applyState();
+        })
+    </script>
+</body>
+</html>

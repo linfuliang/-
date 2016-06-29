@@ -1,0 +1,212 @@
+@charset "UTF-8";
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html, body, .wrap {
+	width: 100%;
+	height: 100%;
+}
+/* 用户登录 */
+.login-con {
+	padding: 1.33rem 4.69% 0 4.69%;
+}
+.login-control {
+	height: 1rem;
+	margin-top: 0.92rem;
+	line-height: 2rem;
+}
+.forget-pwd {
+	float: left;
+	color: #717070;
+}
+.free-enroll {
+	float: right;
+	color: #c50000;
+	text-decoration: underline;
+}
+/* 免费注册 - 注册类型 */
+.login-style a {
+	display: block;
+	height: 3rem;
+	padding: 0 4.69% 0 12.5%;
+	color: #585858;
+	background: url("../images/login-style.png") 4.69% 0.92rem no-repeat;
+	background-size: 4.69%;
+	line-height: 3rem;
+	border: 1px solid #ccc;
+}
+.login-style a:nth-child(2) {
+	background-position-y: -1.94rem;
+	border-top: none;
+}
+.login-style a:nth-child(3) {
+	background-position-y: -4.93rem;
+	border-top: none;
+}
+.login-style a div {
+	float: right;
+	width: 4.53%;
+	height: 3rem;
+	background: url("../images/login-arrow.png") center center no-repeat;
+	background-size: 51.72%;
+}
+
+/* 手机注册 */
+.login-text {
+	padding-left: 5.17%;
+	height: 3rem;
+	border: 1px solid #ccc;
+}
+.text-pho {
+	float: left;
+	width: 90.34%;
+	height: 3rem;
+}
+/* 输入框 */
+.login-text input {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	outline: none;
+}
+.login-text span {
+	float: left;
+	display: none;
+	width: 5.69%;
+	height: 3rem;
+	background: url("../images/input-clear.png") 0 center no-repeat;
+	background-size: 100%;
+}
+/* 控制两个输入框中间的border */
+.text-name {
+	border-bottom: 0;
+}
+.login-next {
+	display: block;
+	height: 2.08rem;
+	margin-top: 1.25rem;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #f25000;
+	text-align: center;
+	line-height: 2.08rem;
+	font-size: 1.08rem;
+}
+.back-login {
+	display: block;
+	width: 21.72%;
+	margin-top: 1.88rem;
+	padding-left: 5.17%;
+	color: #585858;
+	text-decoration: underline;
+}
+
+/* 手机注册 - 发送验证码 */
+.pho-namber {
+	margin: 0.83rem 0 1.67rem 0;
+	color: #c50000;
+	font-size: 1.58rem;
+	font-family: "Arial";
+}
+.sent-time {
+	visibility: hidden;
+	height: 2.75rem;
+	margin-bottom: 0.33rem;
+	text-align: center;
+	line-height: 2.75rem;
+	font-size: 0.92rem;
+}
+/* 获取验证码 */
+.sent-control {
+	width: 43.79%;
+	height: 1.92rem;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #f25000;
+	text-align: center;
+	line-height: 1.92rem;
+}
+
+/* 手机注册 - 输入密码 */
+.pwd-show {
+	height: 1rem;
+	margin-top: 1.25rem;
+}
+.pwd-show div {
+	float: left;
+	width: 4.14%;
+	height: 1rem;
+	margin-right: 1.38%;
+	border: 1px solid #cdcdcd;
+	background-size: 60.87%;
+}
+.pwd-show p {
+	float: left;
+	line-height: 1.08rem;
+}
+
+/* 正则判断 - 错误提醒 */
+.login-error {
+	display: none;
+	height: 0.96rem;
+	margin-top: 0.83rem;
+	padding-left: 5.17%;
+	color: #c50000;
+	background: url("../images/write-error.png") 0 center no-repeat;
+	background-size: contain;
+	line-height: 0.96rem;
+	font-size: 0.83rem;
+}
+
+/* 忘记密码 - 验证 */
+.verify-style {
+	margin-bottom: 2.33rem;
+}
+.verify-style h3, 
+.verify-con h3,
+.verify-newpwd h3 {
+	margin-bottom: 0.83rem;
+}
+.verify-select {
+	position: relative;
+	padding: 0 5.17%;
+	height: 3rem;
+	border: 1px solid #ccc;
+	color: #c4c4c4;
+	line-height: 3rem;
+}
+.verify-select span {
+	float: right;
+	width: 4.31%;
+	height: 3rem;
+	background: url("../images/verify-select.png") 0 center no-repeat;
+	background-size: 100%;
+}
+/* 下拉框 */
+.verify-select ul {
+	display: none;
+	position: absolute;
+	top: 3rem;
+	left: -1px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	text-align: center;
+}
+.verify-select li {
+	line-height: 2rem;
+}
+.verify-sent {
+	line-height: 3.25rem;
+}
+.verify-control {
+	width: 100%;
+	height: 2.08rem;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #f25000;
+	text-align: center;
+	line-height: 2.08rem;
+	font-size: 1.08rem;
+}

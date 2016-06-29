@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>偶尔买 - 退货申请</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <script src="../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../js/word.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <a href="javaScript:history.go(-1);" class="back" title="返回"></a>
+            <h1 class="title">退货申请</h1>
+        </div>
+        <div class="re-request">
+            <div class="re-order">
+                <p>
+                    <span>订单号:
+                        <strong>2013955465454</strong>
+                    </span>
+                </p>
+                <p>
+                    <span>下单时间:
+                        <strong>2013-12-06
+                            <em>12:40:12</em>
+                        </strong>
+                    </span>
+                </p>
+                <p>
+                    <span>发货时间:
+                        <strong>2013-12-06
+                            <em>18:40:12</em>
+                        </strong>
+                    </span>
+                </p>
+            </div>
+            <div class="re-return">
+                <h2>选择退货商品和数量</h2>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>
+                                <img src="../images/ease_03.jpg" alt="" />
+                            </dt>
+                            <dd>
+                                <p>5.5寸大屏智能红米手机</p>
+                                <div class="clearfix">
+                                    <span>红色
+                                        <strong>x1</strong>
+                                    </span>
+                                    <p class="select-area">
+                                       <span class="select-value"></span>
+                                       <select name="" id="test">
+                                           <option value="">0</option>
+                                           <option value="">1</option>
+                                           <option value="">2</option>
+                                           <option value="">3</option>
+                                       </select> 
+                                    </p>
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <img src="../images/ease_03.jpg" alt="" />
+                            </dt>
+                            <dd>
+                                <p>5.5寸大屏智能红米手机</p>
+                                <div class="clearfix">
+                                    <span>红色
+                                        <strong>x1</strong>
+                                    </span>
+                                    <p class="select-area">
+                                       <span class="select-value"></span>
+                                       <select name="" id="test">
+                                           <option value="">0</option>
+                                           <option value="">1</option>
+                                           <option value="">2</option>
+                                           <option value="">3</option>
+                                       </select> 
+                                    </p>
+                                </div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <h3>共选择
+                <span>0</span>个退货商品
+            </h3>
+            <div class="re-reasons">
+                <p>退货原因</p>
+                <div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="re-name clearfix">
+                <span>退货人姓名</span>
+                <input type="text" />
+            </div>
+            <div class="re-phone clearfix">
+                <span>退货人电话</span>
+                <input type="text" />
+            </div>
+            <div class="re-confirm">
+                <a href="return-apply-submit-ok.html" title="">确认退货</a>
+            </div>
+        </div>
+    </div>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script>
+        var testArr = [];
+        var testSum = 0;
+        $(".re-return #test").click(function(){
+            testSum = 0;
+           for (var i = 0; i < $(".re-return #test").length; i++) {
+              testArr[i] = $(".re-return #test").eq(i).find('option:selected').html();
+              testSum += parseInt(testArr[i]);
+           }
+           $(".re-request h3 span").html(testSum);
+        })
+    </script>
+</body>
+</html>

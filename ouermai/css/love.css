@@ -1,0 +1,294 @@
+@charset "utf-8"
+/* 爱心联盟 主页 */
+.love {
+	max-width: 640px;
+}
+.love .swiper-wrapper {
+	width: 100%;
+	height: 12.08rem;
+}
+.love .swiper-wrapper .swiper-love1 a {
+	display: block;
+	width: 100%;
+	height: 12.08rem;
+}
+.love .swiper-wrapper .swiper-love2 a {
+	display: block;
+	width: 100%;
+	height: 12.08rem;
+}
+.love .swiper-wrapper .swiper-love3 a {
+	display: block;
+	width: 100%;
+	height: 12.08rem;
+}
+.love .swiper-wrapper a img {
+	width: 100%;
+	height: 100%;
+}
+.love-tab {
+	height: 2.92rem;
+	background: #eeeeee;
+}
+.love-tab span {
+	float: left;
+	width: 25%;
+	height: 2.92rem;
+	color: #585858;
+	text-align: center;
+	line-height: 2.92rem;
+	font-size: 1rem;
+}
+.love-tab .love-show {
+	height: 2.84rem;
+	color: #ff6600;
+	box-shadow: 0px 2px #ff6600;
+}
+.love-con {
+	padding: 1.25rem 0.83rem;
+}
+.love-con div {
+	display: none;
+}
+.love-con .lovecon-show {
+	display: block;
+}
+.love-con a {
+	display: block;
+	width: 100%;
+	height: 14.21rem;
+	margin: 0 auto;
+	margin-bottom: 0.83rem;
+	background: #eee;
+}
+.love-con img {
+	width: 100%;
+	height: 12.08rem;
+	border: none;
+}
+.love-con p {
+	overflow: hidden;
+	width: 98%;
+	height: 1.6rem;
+	color: #585858;
+	padding-left: 2%;
+	line-height: 1.6rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.love-find {
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	z-index: 999;
+	width: 13.9%;
+	height: 3.75rem;
+	background: url("../images/lovebac_07.png");
+	background-size: 3.75rem;
+	background-position-y: 8.9rem;
+}
+/* 爱心文章详情*/
+.article {
+	padding: 1.58rem  0.83rem 2.58rem 0.83rem;
+}
+.article h2 {
+	font-size: 1.33rem;
+	-webkit-box-shadow: 0 1px #ccc;
+	-moz-box-shadow: 0 1px #ccc;
+	box-shadow: 0 1px #ccc;
+}
+.article-from {
+	margin: 0.38rem 0 0.79rem 0;
+	color: #9c9c9c;
+	text-align: right;
+}
+.article-from em {
+	margin: 0 0.58rem;
+}
+.article-pic {
+	height: 11.46rem;
+}
+.article-pic img  {
+	width: 100%;
+	height: 100%;
+}
+.article-con {
+	padding-top: 1.67rem;
+}
+.article-con p {
+	text-indent: 2em;
+}
+/* 找对象 */
+.object-tab {
+	height: 3rem;
+	background: url("../images/cen_03.png") center no-repeat;
+	background-size: 1px 1.75rem; 
+	-webkit-box-shadow: inset 0 1px #e0e0e0,
+					  0 -1px #e0e0e0;
+	-moz-box-shadow: inset 0 1px #e0e0e0,
+					  0 -1px #e0e0e0;
+	box-shadow: inset 0 1px #e0e0e0,
+					  0 -1px #e0e0e0;
+}
+.object-tab span {
+	float: left;
+	width: 50%;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	cursor: pointer;
+}
+.object-tab span:nth-child(1) {
+	-webkit-box-shadow: inset 0 -2px #ff6600;
+	-moz-box-shadow: inset 0 -2px #ff6600;
+	box-shadow: inset 0 -2px #ff6600;
+}
+.object-tabcon div dl {
+	height: 5.51rem;
+	padding: 0.83rem 3%;
+	-webkit-box-shadow: inset 0 -1px #e0e0e0;
+	-moz-box-shadow: inset 0 -1px #e0e0e0;
+	box-shadow: inset 0 -1px #e0e0e0;
+}
+
+.object-tabcon div dt {
+	float: left;
+	width: 29%;
+	height: 5.51rem;
+	margin-right: 8%;
+}
+.object-tabcon div dt img {
+	width: 100%;
+	height: 100%;
+}
+.object-tabcon div dd {
+	float: left;
+	width: 63%;
+	height: 5.51rem;
+}
+.object-tabcon div dd h3 {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.object-tabcon div dd p {
+	overflow: hidden;
+	color: #7e7e7e;
+	font-size: 0.83rem;
+	margin: 0.58rem 0 1rem 0;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.object-tabcon div dd span {
+	float: left;
+	color: #c4c4c4;
+	font-size: 0.75rem;
+}
+.object-tabcon div dd em {
+	color: #ff6600;
+	font-size: 0.75rem;
+}
+.object-tabcon > div {
+	display: none;
+}
+.object-con div {
+	height: 1.46rem;
+	line-height: 1.46rem;
+}
+.object-tabcon .object-con {
+	display: block;
+}
+.object-tabcon div a {
+	float: right;
+	width: 29%;
+	height: 1.46rem;
+	border: 1px solid #ff6600;
+	border-radius: 2px;
+	color: #ff6600;
+	text-align: center;
+	line-height: 1.46rem;
+	font-size: 0.75rem;
+}
+.object-find {
+	position: fixed;
+	top: 50%;
+	right: 5%;
+	width: 13.9%;
+	height: 3.75rem;
+	background: url("../images/lovebac_07.png");
+	background-size: 3.75rem;
+	background-position-y: 3.8rem;
+}
+.object-tabcon {
+	height: 100%;
+}
+/* 找对象详情*/
+.object-donated {
+	height: 31.33rem;
+	margin-top: 0.75rem;
+}
+.object-img {
+	width: 71%;
+	height: 18.83rem;
+	margin: 0 auto;
+}
+.object-img img {
+	width: 100%;
+	height: 100%;
+}
+.object-money {
+	height: 1.88rem;
+	margin: 2.5rem 0 1.88rem 0;
+	padding-left: 5%;
+	padding-top: 0.16rem;
+	font-size: 1.08rem;
+}
+.object-money input {
+	width: 29%;
+	/*height: 1.88rem;*/
+	margin: 0 3%;
+	padding-left: 2%;
+}
+.object-btn {
+	width: 90%;
+	height: 2.58rem;
+	margin: 0 auto;
+	border-radius: 1px;
+	background: #ff6600;
+}
+.object-btn button {
+	width: 100%;
+	height: 100%;
+	border: none;
+	color: #fff;
+	background: none;
+}
+.product-details {
+	height: 2.58rem;
+	margin-top: 3.79rem;
+	background: #eee url("../images/easebac3_05.png") no-repeat;
+	background-size: 4.67rem;
+	background-position: 15.75rem -81.8rem;
+	text-align: center;
+	line-height: 2.58rem;
+}
+.product-con {
+	display: none;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 1.92rem;
+	padding-bottom: 8.33rem;
+}
+.product-con h3 {
+	font-size: 1.17rem;
+	margin-bottom: 0.92rem;
+}
+.product-con p {
+	color: #878787;
+	line-height: 1.67rem;
+}
+.product-con img {
+	width: 100%;
+	height: 10.42rem;
+	margin: 1.13rem 0 1.42rem 0;
+}

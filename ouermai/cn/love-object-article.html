@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>偶尔买 - 找对象</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/love.css">
+    <script src="../js/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="../js/word.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<a href="javaScript:history.go(-1);" class="back" title="返回"></a>
+			<h1 class="title">找对象</h1>
+		</div>
+		<div class="con">
+			<div class="main-title clearfix">
+                <h1>这个冬天很温暖</h1>
+                <div class="collect">
+                    <span></span>
+                    收藏
+                </div>
+            </div>
+            <div class="object-donated">
+            	<div class="object-img">
+            		<img src="../images/prob_03.png" alt="" title="">
+            	</div>
+            	<p class="object-money">
+            		捐款金额<input type="text" name="" id="" placeholder="请输入金额">元
+            	</p>
+            	<div class="object-btn">
+            		<a href="bought-order-submit-ok.html" title=""><button>我要捐款</button></a>
+            	</div>
+            	<p class="product-details">
+            		查看产品详情
+            	<p>
+            	<div class="product-con">
+            		<h3>温暖的礼物</h3>
+            		<p>
+            			晓黄和晓飞的家，在云南的偏远山村，姐妹俩的妈妈和哥哥都有智力障碍。
+            		</p>
+            		<p>两姐妹年纪还小，爸爸坚持想让他们念完小学。照顾妈妈和哥哥的任务就落在了爸爸身上。一家人的生活艰苦，爸爸在地里劳作，收成后的所得仅够五口人勉强维持生活。</p>
+            		<p>因为家里的负担重，两姐妹的衣服一直是姐姐穿了妹妹穿；寒冷的冬天，她们的小手长着冻疮，穿着单薄的衣服走两个小时的山路才能到达学校。</p>
+            		<p>学校里没有暖气，饭菜都是凉的。“我没上过学，家里穷，没给孩子们买过什么新衣服。她们也没跟我要过”我们家访时，晓黄和晓飞的爸爸告诉我们。</p>
+            		<p>去年慈福行动为孩子们发放了新鞋子，晓黄和晓飞的爸爸说孩子们很喜欢，知道我们要在12月给他们发放手套和围巾还有暖水壶时孩子们又是好奇又是开心！</p>
+            		<img src="../images/pro_03.png" alt="" title="">
+            		<h4>这个冬天不再寒冷</h4>
+            		<p>上学路上抵御寒冷
+					深秋将至，寒冬随来，在云南、贵州、四川的少数民族地区的孩子们没有空调，没有暖气，也没有暖宝宝和电热毯。
+					他们不知道什么是电暖气，也没穿过羽绒服。
+					没有厚衣服的他们，只能将仅有的衣服一件件套上，口渴了，就从水管里喝一口冰凉的自来水。
+					在云南、贵州、四川的少数民族地区，每户家庭人口众多，家中却一贫如洗，孩子们在生活上的物资非常缺乏。
+					孩子们舍不得添置新衣服，寒冷的冬天没有御寒的衣物。
+					一双保暖的帽子、围巾和手套，保护孩子们在上学的路上抵御寒冷 
+					慈福行动将为云南、贵州、四川的少数民族地区的500位孩子们购买御寒用的帽子，手套，围巾，暖水壶和圣诞卡，打包成圣诞礼包发放给孩子们。发放的同时，慈福行动心声项目的老师和志愿者们将为孩子们组织营会，为孩子们发故事书，组织孩子们阅读和分享</p>
+            	</div>
+            </div>
+		</div>
+	</div>
+	<script src="../js/common.js"></script>
+    <script>
+       var cture = true;
+        $(".collect").click(function() {
+            if(cture == true) {
+                $(".collect span").css({
+                    "background" : "url(../images/easebac.png) no-repeat",
+                    "background-size" : "3.13rem",
+                    "background-position" : "center 0rem"
+                })
+                cture = false;
+            }
+            else {
+                $(".collect span").css({
+                    "background" : "url(../images/easebac3_05.png) no-repeat",
+                    "background-size" : "3.13rem",
+                    "background-position" : "center -49.33rem"
+                })
+                cture = true;
+            }
+        }); 
+        function loveObject() {
+            var love = true;
+            $(".product-details").click(function(){
+                if(love == true) {
+                    $(".product-con").css({
+                        "display" : "block"
+                    })
+                    $(this).css({
+                        "background-position" : "15.75rem -79.9rem"
+                    })
+                    love = false;
+                }
+                else {
+                    $(".product-con").css({
+                        "display" : "none"
+                    })
+                    $(this).css({
+                        "background-position" : "15.75rem -81.8rem"
+                    })
+                    love = true;
+                }
+            });
+        }loveObject();
+    </script>
+</body>
+</html>
